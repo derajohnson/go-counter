@@ -2,21 +2,21 @@
 
 This is a simple command-line tool built in Go to analyze text files. The tool provides options to count the number of words, lines, and characters in a given file. It also includes a mode to display all counts simultaneously.
 
-## Features
+### Features
 - Count the number of words in a file.
 - Count the number of lines in a file.
 - Count the number of characters (grapheme clusters) in a file.
 - Display all counts (words, lines, and characters) at once.
 
-# Installation and Usage
-## Step 1: Clone the Repository
+## Installation and Usage
+### Step 1: Clone the Repository
 
 ``` bash
 git clone https://github.com/derajohnson/go-text-counter.git
 cd go-text-counter
 
 ```
-## Step 2: Build the Executable
+### Step 2: Build the Executable
 Run the following command to build the program:
 
 ``` bash
@@ -24,7 +24,7 @@ go build -o counter
 
 ```
 
-## Step 3: Move the Executable to `/usr/local/bin`
+### Step 3: Move the Executable to `/usr/local/bin`
 To make the `counter` tool globally accessible:
 
 ``` bash
